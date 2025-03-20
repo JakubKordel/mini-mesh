@@ -1,0 +1,39 @@
+# Ignore CubeMX-generated files
+*.ioc
+*.bak
+
+# Ignore build outputs
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.o
+*.d
+*.dep
+*.a
+*.axf
+
+# Ignore IDE settings and build directories
+Debug/
+Release/
+*.log
+*.tmp
+*.launch
+*.uvoptx
+*.uvprojx
+*.cproject
+*.project
+*.settings/
+ipch/
+.idea/
+.vscode/
+
+# Ignore auto-generated CubeMX files
+Core/Inc/stm32*.h
+Core/Src/stm32*.c
+Drivers/CMSIS/
+Drivers/STM32*/Include/
+Drivers/STM32*/Src/
+Middlewares/
+MeshDirectedDiffusion/
