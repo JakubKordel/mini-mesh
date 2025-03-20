@@ -1,16 +1,17 @@
-# Opis projektu  
+# Project Description  
 
-Projekt składa się z czterech głównych folderów: `MeshDirectedDiffusion`, `linuxSimulation`, `esp8266examples` i `STM32`.  
+The project consists of four main folders: `MeshDirectedDiffusion`, `linuxSimulation`, `esp8266examples`, and `STM32`.
+For more iformation go to readme files in subdirectories.  
 
 ## 📂 MeshDirectedDiffusion  
-Zawiera uniwersalną bibliotekę umożliwiającą tworzenie i zarządzanie siecią **mesh**.  
+Contains a universal library for creating and managing a **mesh** network.  
 
 ## 📂 linuxSimulation  
-Zawiera projekt symulacji sieci **mesh** w systemie **Linux**, w którym węzły wykorzystują bibliotekę z folderu `MeshDirectedDiffusion`.  
-Projekt umożliwia **prototypowanie i testowanie** węzłów sieci bez konieczności użycia fizycznych urządzeń.  
+Contains a project for simulating a **mesh** network on a **Linux** system, where nodes use the library from the `MeshDirectedDiffusion` folder.  
+The project enables **prototyping and testing** network nodes without the need for physical devices.  
 
 ## 📂 esp8266examples  
-Zawiera przykłady użycia biblioteki sieci **mesh** w środowisku **ESP8266**.  
+Contains examples of using the **mesh** network library in the **ESP8266** environment.  
 
 ## 📂 STM32  
-Zawiera projekt przeznaczony dla środowiska **STM32CubeIDE**, umożliwiający implementację i testowanie sieci **mesh** na mikrokontrolerach **STM32**. 
+Contains a project designed for **STM32CubeIDE**, allowing for the implementation and testing of a **mesh** network on **STM32** microcontrollers. 
